@@ -335,7 +335,7 @@ public class Mapping {
                 case "NR:P9PBZ6":return abstraheren("Albert Heijn", level-1);
                 case "NR:Y6B5BJ":return abstraheren("Albert Heijn", level-1);
                 case "NR:3ZWG01":return abstraheren("Blokker", level-1);
-                case "NR:CT436503":return abstraheren("De Pintelier", level-1);
+                case "NR:CT436503":return abstraheren("Cafe de Pintelier", level-1);
                 case "NR:CT601336":return abstraheren("Drie gezusters", level-1);
                 case "NR:CT602448":return abstraheren("Het Pakhuis", level-1);
                 case "NR:CT451819":return abstraheren("Noorderzon", level-1);
@@ -409,8 +409,9 @@ public class Mapping {
                 case "NL74INGB0004349817": return abstraheren("Matthijs de Vries", level-1);
 
 // LEVEL2
-                case "Aldi": return abstraheren("Boodschappen", level-1);
                 case "Albert Heijn": return abstraheren("Boodschappen", level-1);
+                case "Aldi": return abstraheren("Boodschappen", level-1);
+                case "Allesco": return abstraheren("Tanken", level-1);
                 case "Blokker": return abstraheren("Boodschappen", level-1);
                 case "Brasserie vd Berg": return abstraheren("Vakantie", level-1);
                 case "Coop": return abstraheren("Boodschappen", level-1);
@@ -424,9 +425,8 @@ public class Mapping {
                 case "Cafe Ome Ko": return abstraheren("Zuipen", level-1);
                 case "Cafe Tante Truus": return abstraheren("Zuipen", level-1);
                 case "Cafetaria Friet van Piet": return abstraheren("Zuipen", level-1);
-                case "De Pintelier": return abstraheren("Zuipen", level-1);
                 case "Drie gezusters": return abstraheren("Zuipen", level-1);
-                case "Gamma": return abstraheren("klussen", level-1);
+                case "Gamma": return abstraheren("Klussen", level-1);
                 case "Gulf": return abstraheren("Tanken", level-1);
                 case "Het Pakhuis": return abstraheren("Zuipen", level-1);
                 case "Hockeybal": return abstraheren("Sport", level-1);
@@ -436,7 +436,7 @@ public class Mapping {
                 case "Knol's Koek": return abstraheren("Boodschappen", level-1);
                 case "Kruidvat": return abstraheren("Boodschappen", level-1);
                 case "Le Souk": return abstraheren("Boodschappen", level-1);
-                case "Leen Bakker": return abstraheren("klussen", level-1);
+                case "Leen Bakker": return abstraheren("Klussen", level-1);
                 case "Lidl": return abstraheren("Boodschappen", level-1);
                 case "McDonald's": return abstraheren("Uiteten", level-1);
                 case "Noorderzon": return abstraheren("Vakantie", level-1);
@@ -445,6 +445,7 @@ public class Mapping {
                 case "Parking Centrum": return abstraheren("Parkeren", level-1);
                 case "Philips Museum": return abstraheren("Vakantie", level-1);
                 case "Poiesz": return abstraheren("Boodschappen", level-1);
+                case "Renshu": return abstraheren("Hobby", level-1);
                 case "Smedema's Poeliersbedrijf": return abstraheren("Boodschappen", level-1);
                 case "Sodexo": return abstraheren("Uiteten", level-1);
                 case "Subway": return abstraheren("Uiteten", level-1);
@@ -458,9 +459,10 @@ public class Mapping {
                 case "Weerterbergen": return abstraheren("Vakantie", level-1);
                 case "Wibra": return abstraheren("Boodschappen", level-1);
                 case "Xenos": return abstraheren("Boodschappen", level-1);
-                case "Zeeman": return abstraheren("Boodschappen", level-1);
                 case "Save the Children": return abstraheren("Goede doel", level-1);
                 case "Oxfam Novib": return abstraheren("Goede doel", level-1);
+                case "Zeeman": return abstraheren("Boodschappen", level-1);
+                case "Zilveren kruis": return abstraheren("Verzekering", level-1);
 
                 default: return key;
             }

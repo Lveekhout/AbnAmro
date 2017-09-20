@@ -1,3 +1,4 @@
+import com.cedarsoftware.util.io.JsonReader;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -6,9 +7,9 @@ import java.io.*;
 import java.math.BigDecimal;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.HashSet;
-import java.util.Properties;
-import java.util.Set;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @Ignore
 public class AbnAmroTest {
@@ -99,5 +100,37 @@ public class AbnAmroTest {
         String p = ".*IBAN: NL89RABO0341090417.*Naam: R Jansma.*Omschrijving: Kinderalimentatie.*";
         String m = "412061511\tEUR\t20160826\t4978,78\t4408,78\t20160826\t-570,00\tSEPA Periodieke overb.           IBAN: NL89RABO0341090417        BIC: RABONL2U                    Naam: R Jansma                  Omschrijving: Kinderalimentatie                                  ";
         System.out.println(m.matches(p));
+    }
+
+    @Test
+    public void regEx2Test() {
+        Pattern p = Pattern.compile("IBAN: NL89RABO0341090417.*Naam: (.*?)Omschrijving: Kinderalimentatie");
+        Matcher m = p.matcher("412061511\tEUR\t20160826\t4978,78\t4408,78\t20160826\t-570,00\tSEPA Periodieke overb.           IBAN: NL89RABO0341090417        BIC: RABONL2U                    Naam: R Jansma                  Omschrijving: Kinderalimentatie                                  ");
+        System.out.println(m.matches());
+        if (m.find()) {
+            for (int i = 0; i <= m.groupCount(); i++) {
+                System.out.printf("%s\t%s\n", i, m.group(i));
+            }
+        }
+    }
+
+    @Test
+    public void regExMatcherTest() {
+        Pattern pattern = Pattern.compile("/IBAN/(.*)/BIC/(.*)/.*/EREF/Salaris-over-periode-06/(.*)");
+        Matcher matcher = pattern.matcher("/TRTP/SEPA OVERBOEKING/IBAN/NL09INGB0000435000/BIC/INGBNL2A/NAME/AEGON NEDERLAND NV/EREF/Salaris-over-periode-06/2017           ");
+        if (matcher.find()) {
+            for (int i = 0; i <= matcher.groupCount(); i++) {
+                System.out.printf("%s\t%s\n", i, matcher.group(i));
+            }
+        }
+    }
+
+    @Test
+    public void readJsonTest() throws IOException {
+        InputStream inputStream = new FileInputStream("config.json");
+        JsonReader jr = new JsonReader(inputStream);
+        List<Config> cs = (ArrayList<Config>) jr.readObject();
+
+        System.out.println(cs);
     }
 }
