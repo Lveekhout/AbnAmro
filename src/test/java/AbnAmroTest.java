@@ -1,4 +1,5 @@
-import com.cedarsoftware.util.io.JsonReader;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -7,7 +8,10 @@ import java.io.*;
 import java.math.BigDecimal;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Properties;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -127,10 +131,8 @@ public class AbnAmroTest {
 
     @Test
     public void readJsonTest() throws IOException {
-        InputStream inputStream = new FileInputStream("config.json");
-        JsonReader jr = new JsonReader(inputStream);
-        List<Config> cs = (ArrayList<Config>) jr.readObject();
-
-        System.out.println(cs);
+        ObjectMapper om = new ObjectMapper();
+        List<List<Config>> c = om.readValue(new File("config.json"), new TypeReference<List<List<Config>>>(){});
+        System.out.println(c);
     }
 }

@@ -1,6 +1,6 @@
 public class Config {
     public String pattern;
-    public String vast;
+    public Boolean vast;
     public String categorie;
     public String naam;
 }

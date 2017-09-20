@@ -1,14 +1,16 @@
 [
-  {
-    "pattern": ".*IBAN: NL09INGB0000435000.*Naam: AEGON NEDERLAND NV.*Omschrijving: Aegon salaris.*",
-    "vast": true,
-    "categorie": "Boodschappen",
-    "naam": "Albert Heijn"
-  },
-  {
-    "pattern": "",
-    "vast": true,
-    "categorie": "",
-    "naam": ""
-  }
+  [
+    {
+      "pattern": ".*IBAN: NL09INGB0000435000.*Naam: AEGON NEDERLAND NV.*Omschrijving: Aegon salaris.*",
+      "vast": true,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn"
+    },
+    {
+      "pattern": "",
+      "vast": true,
+      "categorie": "",
+      "naam": ""
+    }
+  ]
 ]
