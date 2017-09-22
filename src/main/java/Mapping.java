@@ -1,4 +1,8 @@
 public class Mapping {
+    {
+        System.out.println("class Mapping initialized...");
+    }
+
     public static String getOmschrijving(String[] kolommen, int level) {
         try {
             return kolommen[7+level];

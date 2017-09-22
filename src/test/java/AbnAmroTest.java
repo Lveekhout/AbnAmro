@@ -128,11 +128,4 @@ public class AbnAmroTest {
             }
         }
     }
-
-    @Test
-    public void readJsonTest() throws IOException {
-        ObjectMapper om = new ObjectMapper();
-        List<List<Config>> c = om.readValue(new File("config.json"), new TypeReference<List<List<Config>>>(){});
-        System.out.println(c);
-    }
 }
