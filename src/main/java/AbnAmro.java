@@ -16,6 +16,7 @@ public class AbnAmro {
     private static void handleFile(File file) throws IOException, ParseException {
         if (file.getName().endsWith(".TAB")) {
             System.out.println(file.getCanonicalPath());
+            String regel = null;
             BufferedReader reader = new BufferedReader(new FileReader(file));
 
             System.out.printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n"
@@ -29,7 +30,6 @@ public class AbnAmro {
                     , "Omschrijving"
                     , "Sha1" );
 
-            String regel = null;
             while ((regel = reader.readLine()) != null) {
                 AbnAmroRegelOmschrijving omschrijving = new AbnAmroRegelOmschrijving(regel.split("\t")[7]);
                 if (omschrijving.type != null) {
