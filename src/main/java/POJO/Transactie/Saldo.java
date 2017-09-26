@@ -1,3 +1,5 @@
+package POJO.Transactie;
+
 import java.math.BigDecimal;
 
 public class Saldo {

@@ -1,3 +1,5 @@
+import POJO.ConfigElement;
+import POJO.Transactie.Transactie;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;
 
@@ -9,16 +11,16 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * Created by leekhout on 26-9-2017.
+ * class TransactieTest
+ * http://www.rexegg.com/regex-quickstart.html
+ */
 public class TransactieTest {
     @Test
     public void constructorTest() throws ParseException, IOException {
         Set<String> regels = new HashSet<>();
-        for (File file : new File(".").listFiles(new FilenameFilter() {
-            @Override
-            public boolean accept(File dir, String name) {
-                return name.endsWith(".TAB");
-            }
-        })) {
+        for (File file : new File(".").listFiles(new AbnAmroFilenameFilter())) {
             String regel = null;
             BufferedReader reader = new BufferedReader(new FileReader(file));
             while ((regel = reader.readLine()) != null) regels.add(regel);
@@ -33,12 +35,7 @@ public class TransactieTest {
     @Test
     public void uniekeOmschrijvingTest() throws ParseException, IOException {
         Set<String> omschrijvings = new HashSet<>();
-        for (File file : new File(".").listFiles(new FilenameFilter() {
-            @Override
-            public boolean accept(File dir, String name) {
-                return name.endsWith(".TAB.ignore");
-            }
-        })) {
+        for (File file : new File(".").listFiles(new AbnAmroFilenameFilter())) {
             String regel = null;
             BufferedReader reader = new BufferedReader(new FileReader(file));
             while ((regel = reader.readLine()) != null) omschrijvings.add(regel.split("\t")[7]);
@@ -65,9 +62,8 @@ public class TransactieTest {
                 Pattern.compile("^(RENTE).*"),
         };
 
-        Pattern p1 = Pattern.compile("^[B|G]EA\\s+([^\\s]+)\\s+\\d{2}\\.\\d{2}\\.\\d{2}/\\d{2}\\.\\d{2}\\s+(.+),");
-        Pattern p2 = Pattern.compile("iban:\\s[^\\s]+", Pattern.CASE_INSENSITIVE);
         Matcher m;
+        Set<ConfigElement> config = new HashSet<>();
         String type = "";
         String pattern = "";
         String naam = "";
@@ -99,29 +95,37 @@ public class TransactieTest {
             }
             if (!gevonden) {
                 type = "";
-                pattern = "";
+                pattern = omschrijving;
                 naam = "";
             }
+            config.add(new ConfigElement(pattern, false, "", naam));
+        }
+        System.out.println("Aantal = " + config.size());
+        System.out.println(new ObjectMapper().writeValueAsString(config));
 
-            System.out.printf("%s\t%s\t%s\t%s\t%s\n"
-                    , type
-                    , pattern
-                    , ""
-                    , naam
-                    , omschrijving
+            System.out.printf("%s\t%s\t%s\n"
+                    , "pattern"
+                    , "categorie"
+                    , "naam"
+            );
+        for (ConfigElement element : config) {
+            System.out.printf("%s\t%s\t%s\n"
+                    , element.pattern
+                    , element.categorie
+                    , element.naam
             );
         }
     }
 
     @Test
-    public void regExMatcherTest() {
-//        http://www.rexegg.com/regex-quickstart.html
-        Pattern p = Pattern.compile("iban:\\s[^\\s]+", Pattern.CASE_INSENSITIVE);
-        Matcher m = p.matcher("SEPA\t\t\t\tSEPA Incasso algemeen doorlopend Incassant: NL98ZZZ271112510000  Naam: AEGON NEDERLAND NV         Machtiging: AEDI20160801L61671143                                Omschrijving: L61671143 PREMIE PER 10-16      AEGON OVERLIJDENSR ISICOVERZEKERI                  IBAN: NL89ABNA0450001067");
-        if (m.find()) {
-            for (int i = 0; i <= m.groupCount(); i++) {
-                System.out.printf("%s\t%s\n", i, m.group(i));
-            }
+    public void txt2jsonText() throws IOException {
+        String regel = null;
+        BufferedReader reader = new BufferedReader(new FileReader("config.txt"));
+        Set<ConfigElement> config = new HashSet<>();
+        while ((regel = reader.readLine()) != null) {
+            String[] elements = regel.split("\t");
+            config.add(new ConfigElement(elements[0], false, elements[1], elements[2]));
         }
+        System.out.println(new ObjectMapper().writeValueAsString(config));
     }
 }

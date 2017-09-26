@@ -1,3 +1,4 @@
+import POJO.ConfigElement;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Ignore;
@@ -5,14 +6,15 @@ import org.junit.Test;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Ignore
-public class ConfigTest {
+public class ConfigElementTest {
     @Test
     public void readJsonTest() throws IOException {
-        ObjectMapper om = new ObjectMapper();
-        List<List<Config>> c = om.readValue(new File("config.json"), new TypeReference<List<List<Config>>>(){});
+        List<List<ConfigElement>> c = new ObjectMapper().readValue(new File("config.json"), new TypeReference<List<List<ConfigElement>>>(){});
         System.out.println(c);
     }
 }

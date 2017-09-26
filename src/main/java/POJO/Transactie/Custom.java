@@ -1,3 +1,5 @@
+package POJO.Transactie;
+
 public class Custom {
     public boolean vast;
     public String categorie;

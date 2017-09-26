@@ -1,16 +1,2776 @@
 [
   [
     {
-      "pattern": ".*IBAN: NL09INGB0000435000.*Naam: AEGON NEDERLAND NV.*Omschrijving: Aegon salaris.*",
-      "vast": true,
+      "pattern": "^BEA.*NR:QW1YC5.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Pathe Groningen"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL52RABO0335109578.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "S.P. DE JONG"
+    },
+    {
+      "pattern": "^BEA.*NR:CT400731.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*SELENA BV GRONINGEN"
+    },
+    {
+      "pattern": "^BEA.*NR:21055951.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "TINQ GRONINGEN HELPERZ"
+    },
+    {
+      "pattern": "^BEA.*NR:CT436503.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*DE PINTELIER"
+    },
+    {
+      "pattern": "^BEA.*NR:22KJP1.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Leen Bakker Fil 4132"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL84INGB0675265657.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "TKP Pensioen"
+    },
+    {
+      "pattern": "^BEA.*NR:X5C2L6.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Hema EV 056"
+    },
+    {
+      "pattern": "^BEA.*NR:54377142.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Kuehtai Shop"
+    },
+    {
+      "pattern": "^BEA.*NR:CT064715.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*STICHTING ZWEMBAD"
+    },
+    {
+      "pattern": "^BEA.*NR:3ZWG01.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Blokker434 Groningen"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL08RABO0320257924.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "R.Y. JANSMA"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL72ABNA0540343293.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "TANDARTSENCOMBINATIE GEE"
+    },
+    {
+      "pattern": "^BEA.*NR:SJ7HQ3.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Brasserie vd Berg"
+    },
+    {
+      "pattern": "^BEA.*NR:VS8101.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Toko Melati"
+    },
+    {
+      "pattern": "^BEA.*NR:4L1302.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "266 Lidl Hoogkerk"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL11ABNA0448897156.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "G A KOHL"
+    },
+    {
+      "pattern": "^BEA.*NR:2ZWM11.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Jumbo Ciboga"
+    },
+    {
+      "pattern": "^BEA.*NR:986C23.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Coop 2175"
+    },
+    {
+      "pattern": "^BEA.*NR:TJ0302.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Blokker126 Groningen"
+    },
+    {
+      "pattern": "^BEA.*NR:2G5L03.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Media Markt Groninge"
+    },
+    {
+      "pattern": "^BEA.*NR:NR55B7.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "McDonald's Hoendiep"
+    },
+    {
+      "pattern": "^BEA.*NR:ZR7Q93.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "H.O.D.N. Lokken"
+    },
+    {
+      "pattern": "^BEA.*NR:CT467323.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*INTERPARKING NL -"
+    },
+    {
+      "pattern": "^BEA.*NR:58NTR6.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "50 Poiesz Supermarkt"
+    },
+    {
+      "pattern": "^BEA.*NR:DZ3W5V.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "SEPAY-LeSouk2"
+    },
+    {
+      "pattern": "^BEA.*NR:YTS7Q5.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "V.O.F. van Buren"
+    },
+    {
+      "pattern": "^BEA.*NR:2T8R02.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Etos 7588"
+    },
+    {
+      "pattern": "^BEA.*NR:R57N98.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Rebam/M.S. Oerd NES"
+    },
+    {
+      "pattern": "^BEA.*NR:P9X9V0.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Ozan Doner Kebap"
+    },
+    {
+      "pattern": "^BEA.*NR:94M9XY.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Tuinland Groningen"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL60INGB0006874106.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Buist Exclusief bv"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL97BNGH0285061917.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Parkeerbelasting Groningen"
+    },
+    {
+      "pattern": "^BEA.*NR:4WZZ02.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Sodexo-NL078340"
+    },
+    {
+      "pattern": "^BEA.*NR:CT602448.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*Het Pakhuis"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL09RABO0130468967.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Van Santen De Hoog"
+    },
+    {
+      "pattern": "^BEA.*NR:5LPH01.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Hasret Doner Kebap"
+    },
+    {
+      "pattern": "^BEA.*NR:2S6K01.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Cafe de Koffer"
+    },
+    {
+      "pattern": "^BEA.*NR:C9Y06M.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn 1552"
+    },
+    {
+      "pattern": "^BEA.*NR:ZH0LS5.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Evenementenpin.nl"
+    },
+    {
+      "pattern": "^BEA.*NR:CT420614.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*CAFE DE UURWERKER"
+    },
+    {
+      "pattern": "^BEA.*NR:3DBZ02.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Leen Bakker Fil 6459"
+    },
+    {
+      "pattern": "^BEA.*NR:21055952.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "TINQ GRONINGEN HELPERZ"
+    },
+    {
+      "pattern": "^BEA.*NR:Q2RF7S.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn 1829"
+    },
+    {
+      "pattern": "^BEA.*NR:V16XPB.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Parking Damsterdiep"
+    },
+    {
+      "pattern": "^BEA.*NR:AL021899.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*TANDARTSENCOMBINAT"
+    },
+    {
+      "pattern": "^BEA.*NR:79R57C.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Boekhandel v/d Velde"
+    },
+    {
+      "pattern": "^BEA.*NR:9W4MWB.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Knol's Koek"
+    },
+    {
+      "pattern": "^RENTE.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "RENTE"
+    },
+    {
+      "pattern": "^BEA.*NR:88416101.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "IZ *Klinkhamer Caterin"
+    },
+    {
+      "pattern": "^BEA.*NR:BT0H30.*",
+      "vast": false,
+      "categorie": "Tanken",
+      "naam": "Allesco P.Dijkemaweg"
+    },
+    {
+      "pattern": "^BEA.*NR:T1Q6F1.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Dinner Served GRONINGEN"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL85INGB0008523141.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Hostnet bv"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL86INGB0002445588.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Belastingdienst"
+    },
+    {
+      "pattern": "^BEA.*NR:4L1303.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "266 Lidl Hoogkerk"
+    },
+    {
+      "pattern": "^GEA.*NR:S1Q220.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "VISMARKT 39"
+    },
+    {
+      "pattern": "^NR\\..*",
+      "vast": false,
+      "categorie": "",
+      "naam": "NR."
+    },
+    {
+      "pattern": "^BEA.*NR:Q2J3RW.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn 1829"
+    },
+    {
+      "pattern": "^BEA.*NR:98PK8Y.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Coop 2175"
+    },
+    {
+      "pattern": "^BEA.*NR:QJ6803.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Intertoys Groningen"
+    },
+    {
+      "pattern": "^BEA.*NR:F4W56W.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Zwembad Kardinge"
+    },
+    {
+      "pattern": "^BEA.*NR:55RM82.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1236"
+    },
+    {
+      "pattern": "^SEPA.*Incassant: NL60ZZZ321410680000.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "INSHARED NEDERLAND B.V."
+    },
+    {
+      "pattern": "^GEA.*NR:01010565.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "IC CASH 01010565"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL21INGB0674773837.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ING Bank"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL12RABO0363916970.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "J.P. DIJKSTRA"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL85INGB0003651316.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Groninger Academische Zweefvliegclub"
+    },
+    {
+      "pattern": "^BEA.*NR:F723S1.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Kassierzuid4"
+    },
+    {
+      "pattern": "^BEA.*NR:T5WPF2.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "So-Low Paddepoel"
+    },
+    {
+      "pattern": "^BEA.*NR:75SE08.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Jumbo Wilhelminakade"
+    },
+    {
+      "pattern": "^BEA.*NR:69156027.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "DFM Hamburg GmbH & Co."
+    },
+    {
+      "pattern": "^SEPA.*Incassant: NL30ZZZ333034790000.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ZIGGO SERVICES BV"
+    },
+    {
+      "pattern": "^BEA.*NR:CT435845.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*VERA"
+    },
+    {
+      "pattern": "^BEA.*NR:2LW963.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "BINNENPRET"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL27RABO0317087428.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "M.G.B. MOORMAN"
+    },
+    {
+      "pattern": "^BEA.*NR:28026893.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "JAGDSCHLOSS KUEHTAI"
+    },
+    {
+      "pattern": "^BEA.*NR:18018462.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "RESTAURANT-STUBE SANKT"
+    },
+    {
+      "pattern": "^GEA.*NR:S1Q221.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "VISMARKT 39"
+    },
+    {
+      "pattern": "^SEPA.*Incassant: NL29ZZZ011574870000.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "BUDOVERENIGING RENSHU"
+    },
+    {
+      "pattern": "^BEA.*NR:00001908.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ZEEMAN GRONINGEN PADDE"
+    },
+    {
+      "pattern": "^BEA.*NR:C897HK.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn 1552"
+    },
+    {
+      "pattern": "^SEPA.*Incassant: GB96NFXSDDCHAS00000041302392.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "NETFLIX INTERNATIONAL B.V."
+    },
+    {
+      "pattern": "^BEA.*NR:025RM0.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "INT 2228 Groningen"
+    },
+    {
+      "pattern": "^BEA.*NR:MM8201.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "JACOBS KANTOORBOEKH."
+    },
+    {
+      "pattern": "^BEA.*NR:534ZQ7.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1236"
+    },
+    {
+      "pattern": "^BEA.*NR:P9PBZ6.*",
+      "vast": false,
       "categorie": "Boodschappen",
       "naam": "Albert Heijn"
     },
     {
-      "pattern": "",
-      "vast": true,
+      "pattern": "^BEA.*NR:HQ3501.*",
+      "vast": false,
       "categorie": "",
-      "naam": ""
+      "naam": "HALFORDS 700045"
+    },
+    {
+      "pattern": "^BEA.*NR:0K63QV.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Park Berg en Bos"
+    },
+    {
+      "pattern": "^BEA.*NR:0TB860.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Parking Boterdiep GROA"
+    },
+    {
+      "pattern": "^BEA.*NR:W55B0Q.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1184"
+    },
+    {
+      "pattern": "^BEA.*NR:53SF6Y.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1236"
+    },
+    {
+      "pattern": "^GEA.*NR:00001011.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "VAKIFBANK Int.AG, Wien"
+    },
+    {
+      "pattern": "^BEA.*NR:XPJ7FT.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "TMC*P - WEERT - 59"
+    },
+    {
+      "pattern": "^BEA.*NR:6ZKS50.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Parkeren maaiveld"
+    },
+    {
+      "pattern": "^BEA.*NR:59X0KK.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Coop Lubbers"
+    },
+    {
+      "pattern": "^BEA.*NR:6D6H9K.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL08INGB0000000555.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Hongersnood"
+    },
+    {
+      "pattern": "^BEA.*NR:72DS02.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Xenos Groningen0019"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL34ABNA0496342061.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "AEGON NEDERLAND NV"
+    },
+    {
+      "pattern": "^SEPA.*Incassant: NL90223130416110000.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ESSENT RETAIL ENERG"
+    },
+    {
+      "pattern": "^BEA.*NR:3SGK6V.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Vrijbuiter Roden"
+    },
+    {
+      "pattern": "^BEA.*NR:CT385240.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*MARTINIPLAZA GRONI"
+    },
+    {
+      "pattern": "^BEA.*NR:5HGW10.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "IKEA Groningen bv"
+    },
+    {
+      "pattern": "^BEA.*NR:2ZN802.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Kruidvat 7365 GRONINGEN"
+    },
+    {
+      "pattern": "^BEA.*NR:Q2QV5M.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn 1829"
+    },
+    {
+      "pattern": "^BEA.*NR:FZR900.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Jumbo Reitdiep"
+    },
+    {
+      "pattern": "^BEA.*NR:567R2K.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1236"
+    },
+    {
+      "pattern": "^BEA.*NR:NSW7TD.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn 1379"
+    },
+    {
+      "pattern": "^BEA.*NR:CT435846.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*VERA"
+    },
+    {
+      "pattern": "^BEA.*NR:QHK7FZ.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Total Dorenbos BV ASSEN"
+    },
+    {
+      "pattern": "^BEA.*NR:AQ5907.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Weerterbergen"
+    },
+    {
+      "pattern": "^BEA.*NR:54283801.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Motel Pelikan"
+    },
+    {
+      "pattern": "^BEA.*NR:10031511.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "TEXACO NAGELE"
+    },
+    {
+      "pattern": "^BEA.*NR:66C703.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "AH To Go Arnhem"
+    },
+    {
+      "pattern": "^BEA.*NR:60942814.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Generator Hostel Hambu"
+    },
+    {
+      "pattern": "^BEA.*NR:4L1301.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "266 Lidl Hoogkerk"
+    },
+    {
+      "pattern": "^BEA.*NR:CT399465.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*KLEIN AMSTERDAM BV"
+    },
+    {
+      "pattern": "^BEA.*NR:CT105881.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*MUZIEKHUIS WESTERH"
+    },
+    {
+      "pattern": "^BEA.*NR:9R286V.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "TMC*P-HARDERWIJK-10"
+    },
+    {
+      "pattern": "^BEA.*NR:57SD2J.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn 1236"
+    },
+    {
+      "pattern": "^BEA.*NR:6F92RC.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Baloney's B.V."
+    },
+    {
+      "pattern": "^BEA.*NR:2G5L02.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Media Markt Groninge"
+    },
+    {
+      "pattern": "^BEA.*NR:G137K6.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "De Vrijbuiter"
+    },
+    {
+      "pattern": "^BEA.*NR:5LZK11.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "MediaMarkt Eindhoven"
+    },
+    {
+      "pattern": "^BEA.*NR:CT415152.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*KAMPEERCAFE BV"
+    },
+    {
+      "pattern": "^GEA.*NR:49001207.*",
+      "vast": false,
+      "categorie": "Pinnen",
+      "naam": "49001207MISS PEPPER"
+    },
+    {
+      "pattern": "^BEA.*NR:CT381110.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*DRIE GEZUSTERS EXP"
+    },
+    {
+      "pattern": "^BEA.*NR:18744611.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "TANKSTATION PEIZERWOLD"
+    },
+    {
+      "pattern": "^BEA.*NR:34GJN9.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "AH F. van der Heide"
+    },
+    {
+      "pattern": "^BEA.*NR:2GL402.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "1038 Action"
+    },
+    {
+      "pattern": "^BEA.*NR:84CXL7.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "BA P1 cashless"
+    },
+    {
+      "pattern": "^BEA.*NR:4XS101.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "BENNER PPH"
+    },
+    {
+      "pattern": "^BEA.*NR:S67VP3.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Restaurant Cairo"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL74INGB0004349817.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Hr M de Vries"
+    },
+    {
+      "pattern": "^BEA.*NR:5WPB02.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "NS-Groningen 202"
+    },
+    {
+      "pattern": "^BEA.*NR:G30R21.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "WC Paddepoel Groning"
+    },
+    {
+      "pattern": "^BEA.*NR:574C42.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1236"
+    },
+    {
+      "pattern": "^BEA.*NR:0P098G.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "W.C.G. Ordelman"
+    },
+    {
+      "pattern": "^BEA.*NR:2ZN801.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Kruidvat 7365 GRONINGEN"
+    },
+    {
+      "pattern": "^BEA.*NR:1XJ0B0.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Ikea bv / Groningen"
+    },
+    {
+      "pattern": "^BEA.*NR:547K3N.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1236"
+    },
+    {
+      "pattern": "^BEA.*NR:643P5S.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Parking Centrum"
+    },
+    {
+      "pattern": "^BEA.*NR:544K6G.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1236"
+    },
+    {
+      "pattern": "^BEA.*NR:HH7501.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Ziengs Groningen 805"
+    },
+    {
+      "pattern": "^BEA.*NR:42M3ND.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Emsland Recreatie OMMEN"
+    },
+    {
+      "pattern": "^BEA.*NR:7KJV2Z.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Het Pakhuis"
+    },
+    {
+      "pattern": "^SEPA.*Incassant: NL67ZZZ271570000000.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ANWB CONTRIBUTIE"
+    },
+    {
+      "pattern": "^BEA.*NR:21055811.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "GULF GRONINGEN HOENDIE"
+    },
+    {
+      "pattern": "^BEA.*NR:ME8708.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "HEMA EV056 PADDEPOEL"
+    },
+    {
+      "pattern": "^BEA.*NR:30BL01.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Primera Strating"
+    },
+    {
+      "pattern": "^BEA.*NR:268HR4.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Emmen Noord"
+    },
+    {
+      "pattern": "^SEPA.*Incassant: NL98ZZZ271112510000.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "AEGON NEDERLAND NV"
+    },
+    {
+      "pattern": "^BEA.*NR:5HGW06.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "IKEA Groningen bv"
+    },
+    {
+      "pattern": "^BEA.*NR:CT445641.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*SMEDEMAS POELIERSB"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL33RABO0368463079.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "I. REINDERS"
+    },
+    {
+      "pattern": "^BEA.*NR:702K8V.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Plus Vechtstraat"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL30ABNA0524590958.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "STG MOLLIE PAYMENTS"
+    },
+    {
+      "pattern": "^ABN.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ABN"
+    },
+    {
+      "pattern": "^BEA.*NR:N0D84N.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "McDonald's Hoendiep"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL42RABO0382874692.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "f guchelaar"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL45RABO0306545241.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ML van Eekhout"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/GB85CHAS60924241314994.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "NETFLIX INTERNATIONAL B.V."
+    },
+    {
+      "pattern": "^BEA.*NR:M5L43N.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Inter Groningen B.V."
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL85INGB0003651316.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "GAZC"
+    },
+    {
+      "pattern": "^BEA.*NR:5HGW16.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "IKEA Groningen bv"
+    },
+    {
+      "pattern": "^BEA.*NR:1XH901.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Vof Heemstra"
+    },
+    {
+      "pattern": "^BEA.*NR:65348252.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Bauhaus"
+    },
+    {
+      "pattern": "^BEA.*NR:W806KZ.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1184"
+    },
+    {
+      "pattern": "^BEA.*NR:22MZ01.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Bowling Partycentrum"
+    },
+    {
+      "pattern": "^BEA.*NR:24KX03.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Kruidvat 1023"
+    },
+    {
+      "pattern": "^BEA.*NR:W4WYV5.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1184"
+    },
+    {
+      "pattern": "^BEA.*NR:5HGW05.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "IKEA Groningen bv"
+    },
+    {
+      "pattern": "^BEA.*NR:3R32N9.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "McDonald's Assen"
+    },
+    {
+      "pattern": "^BEA.*NR:DFR405.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn"
+    },
+    {
+      "pattern": "^BEA.*NR:2D96G4.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1308"
+    },
+    {
+      "pattern": "^GEA.*NR:00058303.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "RAIBA ST. JOHANN IM ST."
+    },
+    {
+      "pattern": "^BEA.*NR:2G5L08.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Media Markt Groninge"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL32ABNA0242244777.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ESSENT RETAIL ENERG"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL89ABNA0450001067.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "AEGON NEDERLAND NV"
+    },
+    {
+      "pattern": "^BEA.*NR:F120WR.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "48 Poiesz Supermarkt"
+    },
+    {
+      "pattern": "^BEA.*NR:7SKH5V.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn"
+    },
+    {
+      "pattern": "^BEA.*NR:WR2003.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Drogisterij Kienstra"
+    },
+    {
+      "pattern": "^BEA.*NR:XSR769.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "603 Lidl Groningen"
+    },
+    {
+      "pattern": "^BEA.*NR:Y9LH1C.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "So-Low Paddepoel"
+    },
+    {
+      "pattern": "^BEA.*NR:FN6QV1.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "48 Poiesz Supermarkt"
+    },
+    {
+      "pattern": "^BEA.*NR:MC9009.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "HEMA EV005GRONINGENC"
+    },
+    {
+      "pattern": "^BEA.*NR:3Z9BVB.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "McDonald's Hoogeveen"
+    },
+    {
+      "pattern": "^BEA.*NR:YW3J38.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ST.LOC7000muntverkoo"
+    },
+    {
+      "pattern": "^BEA.*NR:KLV532.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ST.LOC7000muntverkoo"
+    },
+    {
+      "pattern": "^BEA.*NR:J7V71N.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Pathe Groningen"
+    },
+    {
+      "pattern": "^BEA.*NR:6X1WR8.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "48 Poiesz Supermarkt"
+    },
+    {
+      "pattern": "^BEA.*NR:74038394.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "TOTAL SB-Station"
+    },
+    {
+      "pattern": "^BEA.*NR:DQ3VT2.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn fr.8572"
+    },
+    {
+      "pattern": "^BEA.*NR:58QVL1.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1243"
+    },
+    {
+      "pattern": "^BEA.*NR:8WVB93.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "SHELL DEKKERSLAND"
+    },
+    {
+      "pattern": "^BEA.*NR:AH100716.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "GH Sonne & Schnee"
+    },
+    {
+      "pattern": "^BEA.*NR:5RY0H9.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "603 Lidl Groningen"
+    },
+    {
+      "pattern": "^BEA.*NR:W7V03D.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1184"
+    },
+    {
+      "pattern": "^BEA.*NR:65348251.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Bauhaus"
+    },
+    {
+      "pattern": "^BEA.*NR:67P09D.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Parking Centrum"
+    },
+    {
+      "pattern": "^BEA.*NR:XS046T.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "McDonald's Sontplein"
+    },
+    {
+      "pattern": "^BEA.*NR:CT447247.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*POPPODIUM SIMPLON"
+    },
+    {
+      "pattern": "^BEA.*NR:6L9RBL.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1330"
+    },
+    {
+      "pattern": "^BEA.*NR:65D41M.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Cafe Tante Truus"
+    },
+    {
+      "pattern": "^BEA.*NR:78TL4S.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ST.LOC7000muntverkoo"
+    },
+    {
+      "pattern": "^BEA.*NR:C9W4HZ.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn 1552"
+    },
+    {
+      "pattern": "^BEA.*NR:5HGW04.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "IKEA Groningen bv"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL07INGB0000805188.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "NV WATERBEDRIJF GRONINGEN"
+    },
+    {
+      "pattern": "^BEA.*NR:6KZV4B.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1330"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL17INGB0007082363.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Hr C C van Eekhout"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL08RABO0320257924.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "R.Y. JANSMA"
+    },
+    {
+      "pattern": "^BEA.*NR:SFK04N.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn 1627"
+    },
+    {
+      "pattern": "^BEA.*NR:CT470916.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*VISSPECIALIST PASE"
+    },
+    {
+      "pattern": "^BEA.*NR:V98Q87.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Wereldburgers GRONINGEN"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL70RABO0342451669.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "R Kramer"
+    },
+    {
+      "pattern": "^BEA.*NR:RY7TF7.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "034 Aldi"
+    },
+    {
+      "pattern": "^BEA.*NR:AL055235.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*LAMPENIER ASSEN"
+    },
+    {
+      "pattern": "^BEA.*NR:1XRB78.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Cafe de Bres"
+    },
+    {
+      "pattern": "^BEA.*NR:CT447906.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*VOF DE MARKTSLAGER"
+    },
+    {
+      "pattern": "^BEA.*NR:312K69.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "KAMPEERHAL DE VRIJBU"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL64INGB0683029509.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "p jansma"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL89RABO0341090417.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "R Jansma"
+    },
+    {
+      "pattern": "^SEPA.*Incassant: NL05ZZZ412014630000.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "STG SAVE THE CHILDREN"
+    },
+    {
+      "pattern": "^BEA.*NR:5Q8M9L.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Flitsverkoop/Max"
+    },
+    {
+      "pattern": "^BEA.*NR:3Z7Y5G.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Kool Automobielbedri"
+    },
+    {
+      "pattern": "^BEA.*NR:3V58Z3.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "AH Meins"
+    },
+    {
+      "pattern": "^BEA.*NR:54G47P.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1236"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL60INGB0668301295.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Mw H W Doornbos"
+    },
+    {
+      "pattern": "^BEA.*NR:58LGH9.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1243"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL98INGB0000845745.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ZIGGO SERVICES BV"
+    },
+    {
+      "pattern": "^BEA.*NR:27YZG4.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1308"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL98RABO0133367665.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "b germain en r mohammedamin"
+    },
+    {
+      "pattern": "^GEA.*NR:028114.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "SNS BANK"
+    },
+    {
+      "pattern": "^BEA.*NR:544N6P.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Weerterbergen"
+    },
+    {
+      "pattern": "^BEA.*NR:5HGW03.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "IKEA Groningen bv"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL51ABNA0565668625.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "STG ADYEN"
+    },
+    {
+      "pattern": "^BEA.*NR:SB2SCZ.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "BENNER PPH"
+    },
+    {
+      "pattern": "^BEA.*NR:CT401941.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*CAFE DE DRIE UILTJ"
+    },
+    {
+      "pattern": "^BEA.*NR:CT395619.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*CAFE BOVEN JAN"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL83DEUT0265121817.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Vodafone-Libertel B.V."
+    },
+    {
+      "pattern": "^BEA.*NR:NRN381.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn"
+    },
+    {
+      "pattern": "^BEA.*NR:30D32V.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Weerterbergen"
+    },
+    {
+      "pattern": "^BEA.*NR:6D3S01.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Pacific Groningen"
+    },
+    {
+      "pattern": "^GEA.*NR:33536611.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Borchener Str."
+    },
+    {
+      "pattern": "^SEPA.*IBAN: AT643631600003440542.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Simon Haslwanter"
+    },
+    {
+      "pattern": "^BEA.*NR:CT398823.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*CAFE DE UURWERKER"
+    },
+    {
+      "pattern": "^BEA.*NR:2C1801.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Int.Groningen 372"
+    },
+    {
+      "pattern": "^BEA.*NR:996YP4.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Coop 2175"
+    },
+    {
+      "pattern": "^BEA.*NR:1LPC01.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Helperzwembad GRONINGEN"
+    },
+    {
+      "pattern": "^BEA.*NR:5CN3XM.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Coop Lubbers"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL56INGB0705005100.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "cjib"
+    },
+    {
+      "pattern": "^SEPA.*Incassant: NL10ZZZ302086370000.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Zilveren Kruis Zorgverzeke ringen  NV"
+    },
+    {
+      "pattern": "^BEA.*NR:W6NQN2.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1184"
+    },
+    {
+      "pattern": "^BEA.*NR:27227620.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "KUEHTAIER ALM"
+    },
+    {
+      "pattern": "^BEA.*NR:CU7903.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "PERRY SPORT 07"
+    },
+    {
+      "pattern": "^BEA.*NR:33N101.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Style Coiffures"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL49ABNA0591715392.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "VLIEGTICKETSNL"
+    },
+    {
+      "pattern": "^BEA.*NR:1MD403.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "H & M 013 Groningen"
+    },
+    {
+      "pattern": "^BEA.*NR:48TK01.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Benifit-shop"
+    },
+    {
+      "pattern": "^SEPA.*Incassant: NL98ZZZ020086210000.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "NV WATERBEDRIJF GRONINGEN"
+    },
+    {
+      "pattern": "^BEA.*NR:FY6502.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "FY6501 Gamma Gron-We"
+    },
+    {
+      "pattern": "^BEA.*NR:14PG8V.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Cafe Mulder"
+    },
+    {
+      "pattern": "^GEA.*NR:S1A492.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "VISMARKT 39"
+    },
+    {
+      "pattern": "^BEA.*NR:D596P7.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "VOF DORLAND"
+    },
+    {
+      "pattern": "^BEA.*NR:ME8704.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "HEMA EV056 PADDEPOEL"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL43RABO0325820341.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "B Baron"
+    },
+    {
+      "pattern": "^BEA.*NR:65359928.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Bauhaus"
+    },
+    {
+      "pattern": "^BEA.*NR:2Q42FW.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "MM Sontplein"
+    },
+    {
+      "pattern": "^GEA.*NR:S1N259.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "WESTERKADE 5"
+    },
+    {
+      "pattern": "^GEA.*NR:006929.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ING"
+    },
+    {
+      "pattern": "^BEA.*NR:CT484285.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "LE SOUK"
+    },
+    {
+      "pattern": "^BEA.*NR:2C1802.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Intertoys 372 GRONINGEN"
+    },
+    {
+      "pattern": "^BEA.*NR:9L20P0.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Twin Seasons"
+    },
+    {
+      "pattern": "^BEA.*NR:KG8504.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Bristol 8065 Groning"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL81ABNA0540200735.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "L J VAN EEKHOUT"
+    },
+    {
+      "pattern": "^BEA.*NR:2HG704.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Pathe Groningen"
+    },
+    {
+      "pattern": "^BEA.*NR:AH102127.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Bergbahnen Kuhtai"
+    },
+    {
+      "pattern": "^BEA.*NR:71060608.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "DE PANJERD"
+    },
+    {
+      "pattern": "^BEA.*NR:Y6B5BJ.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn"
+    },
+    {
+      "pattern": "^BEA.*NR:229H42.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "TAMOIL TS ZEYERVEEN TER"
+    },
+    {
+      "pattern": "^BEA.*NR:VP3901.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "WEENING HUBO-KEUKENS"
+    },
+    {
+      "pattern": "^BEA.*NR:NP9J47.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "McDonald's Hoendiep"
+    },
+    {
+      "pattern": "^BEA.*NR:50018059.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ST PAYFIELD FOUNDATION"
+    },
+    {
+      "pattern": "^SEPA.*Incassant: NL41ZZZ620981010000.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "MICROINCASSO CM PAYMENTS"
+    },
+    {
+      "pattern": "^BEA.*NR:HNZ37F.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "8985 GN Brooodzaak"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL09INGB0000435000.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "AEGON NEDERLAND NV"
+    },
+    {
+      "pattern": "^GEA.*NR:CD1236.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "PLUS GRONINGEN VECHTST"
+    },
+    {
+      "pattern": "^BEA.*NR:650S2Z.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Tango Groningen 2"
+    },
+    {
+      "pattern": "^BEA.*NR:FY6501.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "FY6501 Gamma Gron-We"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL97BNGH0285061917.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Gemeente Groningen"
+    },
+    {
+      "pattern": "^BEA.*NR:0GRG01.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Cafe de Pintelier"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL13ABNA0506417344.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ABN AMRO BANK INZ TIKKIE"
+    },
+    {
+      "pattern": "^BEA.*NR:21090011.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "GULF WESTERBORK SLIEMK"
+    },
+    {
+      "pattern": "^BEA.*NR:5HGW09.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "IKEA Groningen bv"
+    },
+    {
+      "pattern": "^BEA.*NR:6PBG2V.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Rest. Kroewa Thai"
+    },
+    {
+      "pattern": "^BEA.*NR:CT435961.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*POPPODIUM SIMPLON"
+    },
+    {
+      "pattern": "^BEA.*NR:NS6VMJ.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Coolblue Groningen"
+    },
+    {
+      "pattern": "^BEA.*NR:5KSX01.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Cafe de Minnaar"
+    },
+    {
+      "pattern": "^BEA.*NR:WB65LX.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1184"
+    },
+    {
+      "pattern": "^BEA.*NR:68JKN0.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Gall & Gall"
+    },
+    {
+      "pattern": "^BEA.*NR:KG8503.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Bristol 8065 Groning"
+    },
+    {
+      "pattern": "^BEA.*NR:CT601336.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*Drie gezusters gro"
+    },
+    {
+      "pattern": "^GEA.*NR:CD2101.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "JUMBO GRONINGEN BEREN"
+    },
+    {
+      "pattern": "^BEA.*NR:7JJF3C.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Da Boezerooij GRONINGEN"
+    },
+    {
+      "pattern": "^BEA.*NR:Q4M839.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "VISSHOP SONTWEG"
+    },
+    {
+      "pattern": "^BEA.*NR:54320113.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "KFC Koeln"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL75RABO0396784674.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "F.J.G. TER BRUGGE EO"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL93RABO0360769705.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "a eeftink"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL23ABNA0818769483.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "INT CARD SERVICES"
+    },
+    {
+      "pattern": "^AFSLUITING.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "AFSLUITING"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL26RABO0140251111.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "INSHARED NEDERLAND B.V."
+    },
+    {
+      "pattern": "^BEA.*NR:280HWD.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Dr.zandattractiepark"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL36INGB0003445588.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "BELASTINGDIENST"
+    },
+    {
+      "pattern": "^BEA.*NR:G49JH3.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Ikea bv / Groningen"
+    },
+    {
+      "pattern": "^BEA.*NR:0JCK02.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Wibra Weert"
+    },
+    {
+      "pattern": "^BEA.*NR:W99GZD.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1184"
+    },
+    {
+      "pattern": "^BEA.*NR:0P797Q.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Subway Sontplein"
+    },
+    {
+      "pattern": "^BEA.*NR:18016588.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "GERNKOGELALM SALETTL-B"
+    },
+    {
+      "pattern": "^BEA.*NR:VZZ4SR.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Cor Hamstra Tweewiel"
+    },
+    {
+      "pattern": "^BEA.*NR:71060606.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "DE PANJERD"
+    },
+    {
+      "pattern": "^BEA.*NR:EL4905.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL69RABO0355808684.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "VelemaRijks"
+    },
+    {
+      "pattern": "^BEA.*NR:NS292G.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "SHELL WITTE MOLEN HAREN"
+    },
+    {
+      "pattern": "^BEA.*NR:4Z55M0.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "NL078340-Sodexo"
+    },
+    {
+      "pattern": "^BEA.*NR:SG32TF.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Bamboe Garden GRONINGEN"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL81RABO0151157383.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "BUDOVERENIGING RENSHU"
+    },
+    {
+      "pattern": "^BEA.*NR:JS6101.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "De Mannenwinkel"
+    },
+    {
+      "pattern": "^BEA.*NR:CT462881.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*LOLA 050"
+    },
+    {
+      "pattern": "^BEA.*NR:5WPB01.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "NS-Groningen 201"
+    },
+    {
+      "pattern": "^BEA.*NR:54WN2L.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1236"
+    },
+    {
+      "pattern": "^BEA.*NR:71014925.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Aral Station 121499123"
+    },
+    {
+      "pattern": "^BEA.*NR:FK609X.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Cafetaria Friet van"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL52RABO0325142246.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Lambeck Harms notarissen"
+    },
+    {
+      "pattern": "^SEPA.*Incassant: NL85ZZZ140522640000.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Vodafone-Libertel B.V."
+    },
+    {
+      "pattern": "^BEA.*NR:BQS2M9.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Kantine De Fruithof"
+    },
+    {
+      "pattern": "^BEA.*NR:C5FJB7.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "9219 AH Kiosk Sons"
+    },
+    {
+      "pattern": "^BEA.*NR:FY6503.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "FY6501 Gamma Gron-We"
+    },
+    {
+      "pattern": "^BEA.*NR:2JXQ01.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Buckshot Cafe GRONINGEN"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL78RABO0302811117.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "H de Boer"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL58INGB0000003050.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Zilveren Kruis Zorgverzekeringen  NV"
+    },
+    {
+      "pattern": "^BEA.*NR:CT600208.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*Sub Paddepoel B.V."
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL51ABNA0425420205.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "J DIJKHUIS CJ"
+    },
+    {
+      "pattern": "^BEA.*NR:BS002766.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Bourgondisch Beilen"
+    },
+    {
+      "pattern": "^GEA.*NR:22201206.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Transact GA 1206"
+    },
+    {
+      "pattern": "^BEA.*NR:21010912.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "GULF GRONINGEN PATERSW"
+    },
+    {
+      "pattern": "^SEPA.*Incassant: NL13ZZZ332005960000.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "INT CARD SERVICES"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL74ABNA0707070252.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "STG SAVE THE CHILDREN"
+    },
+    {
+      "pattern": "^BEA.*NR:NW694Y.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "McDonald's Hoendiep"
+    },
+    {
+      "pattern": "^BEA.*NR:21138752.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "TINQ GRONINGEN"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL96ABNA0450004627.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "AEGON NEDERLAND NV"
+    },
+    {
+      "pattern": "^BEA.*NR:FPL892.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn"
+    },
+    {
+      "pattern": "^BEA.*NR:EL4906.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL90INGB0680918418.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "PV TKP"
+    },
+    {
+      "pattern": "^BEA.*NR:5C1D01.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Kruidvat 7313 GRONINGEN"
+    },
+    {
+      "pattern": "^BEA.*NR:HV8S39.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "McDonald's Hoendiep"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL10ABNA0412312557.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "MAATWERK WOONDIENSTEN"
+    },
+    {
+      "pattern": "^BEA.*NR:CT440514.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*DE DRIE GEZUSTERS"
+    },
+    {
+      "pattern": "^BEA.*NR:53S740.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1236"
+    },
+    {
+      "pattern": "^BEA.*NR:T6LZ2N.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Mc Donalds Demer"
+    },
+    {
+      "pattern": "^BEA.*NR:C8BR7R.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn 1552"
+    },
+    {
+      "pattern": "^BEA.*NR:FKS1BP.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "034 Aldi"
+    },
+    {
+      "pattern": "^BEA.*NR:00002021.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ZEEMAN GRONINGEN WC VI"
+    },
+    {
+      "pattern": "^BEA.*NR:MC9012.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "HEMA EV005GRONINGENC"
+    },
+    {
+      "pattern": "^BEA.*NR:71060398.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "BP PADDEPOEL"
+    },
+    {
+      "pattern": "^BEA.*NR:GX6802.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ANWB VKPT0044 GRONINGEN"
+    },
+    {
+      "pattern": "^BEA.*NR:FY6506.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "FY6501 Gamma Gron-We"
+    },
+    {
+      "pattern": "^BEA.*NR:TH6701.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Blokker106 Groningen"
+    },
+    {
+      "pattern": "^BEA.*NR:257KSK.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "De Kar"
+    },
+    {
+      "pattern": "^BEA.*NR:930L5C.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CIGO STATION"
+    },
+    {
+      "pattern": "^BEA.*NR:678K66.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Boomker Boeken HAREN GN"
+    },
+    {
+      "pattern": "^BEA.*NR:5B6LL8.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Coop Lubbers"
+    },
+    {
+      "pattern": "^BEA.*NR:960YN0.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn 1522 WEERT"
+    },
+    {
+      "pattern": "^BEA.*NR:AQ5913.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Weerterbergen"
+    },
+    {
+      "pattern": "^BEA.*NR:CT438928.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*VERA"
+    },
+    {
+      "pattern": "^BEA.*NR:CT187807.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "GULF VRIEZENVEEN WEST"
+    },
+    {
+      "pattern": "^BEA.*NR:H8YW15.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn"
+    },
+    {
+      "pattern": "^BEA.*NR:M9HG5W.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Kardinge Horeca PPH"
+    },
+    {
+      "pattern": "^BEA.*NR:HQ5401.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Halfords Paddepoel"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL05ABNA0621913545.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "DOMINOS NL BY ADYEN"
+    },
+    {
+      "pattern": "^BEA.*NR:L2V6LR.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Break Out Grunopark"
+    },
+    {
+      "pattern": "^BEA.*NR:P8J157.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Vegro Verpleegartike"
+    },
+    {
+      "pattern": "pattern",
+      "vast": false,
+      "categorie": "categorie",
+      "naam": "naam"
+    },
+    {
+      "pattern": "^BEA.*NR:CW491R.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Boekhandel vd Velde"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL60RABO0312205503.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Rabobank Walcheren"
+    },
+    {
+      "pattern": "^BEA.*NR:SC3702.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Supermarkt Hengst NES"
+    },
+    {
+      "pattern": "^BEA.*NR:38FJ71.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CAFE OME KO"
+    },
+    {
+      "pattern": "^BEA.*NR:09GX03.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "SportcentrumKardinge"
+    },
+    {
+      "pattern": "^BEA.*NR:8GLZ4Q.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Bakkerij Van Esch NIEUW"
+    },
+    {
+      "pattern": "^BEA.*NR:54359951.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Amend Restaurantbetrie"
+    },
+    {
+      "pattern": "^BEA.*NR:C7TZ5D.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn 1552"
+    },
+    {
+      "pattern": "^BEA.*NR:1DQR01.*",
+      "vast": false,
+      "categorie": "Speelgoed",
+      "naam": "Bart Smit Fil. 022"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL58INGB0000003050.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Zilveren Kruis Zorgverzekeringen  NV"
+    },
+    {
+      "pattern": "^BEA.*NR:W4B2L0.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1184"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL36INGB0003445588.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "BELASTINGDIENST"
+    },
+    {
+      "pattern": "^BEA.*NR:6L0CQR.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Weerterbergen"
+    },
+    {
+      "pattern": "^BEA.*NR:CT470726.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*EUROBORG HORECA BV"
+    },
+    {
+      "pattern": "^BEA.*NR:65148485.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "PERS. VER. VEILIG EN V"
+    },
+    {
+      "pattern": "^BEA.*NR:5WQD01.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "NS-Assen 201"
+    },
+    {
+      "pattern": "^GEA.*NR:80870096.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "KOELNER BANK EG"
+    },
+    {
+      "pattern": "^BEA.*NR:6P506L.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ST.LOC7000muntverkoo"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL35RABO0117713678.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Stichting Pay.nl"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL92INGB0005749397.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "MH van der Blom"
+    },
+    {
+      "pattern": "^BEA.*NR:98C2N8.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Coop 2175"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL73INGB0004799527.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CC van Eekhout"
+    },
+    {
+      "pattern": "^BEA.*NR:K9Z6T5.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Sub Brugstraat"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL89RABO0341090417.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "R Jansma"
+    },
+    {
+      "pattern": "^BEA.*NR:3HD801.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "vof de Marktslager"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL36RABO0302930698.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "GJ Nijhof"
+    },
+    {
+      "pattern": "^BEA.*NR:5BSD2L.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Coop Lubbers"
+    },
+    {
+      "pattern": "^BEA.*NR:CT466080.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*MARTINI PLAZA BV"
+    },
+    {
+      "pattern": "^BEA.*NR:57WSH2.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1243"
+    },
+    {
+      "pattern": "^PAKKETVERZ\\..*",
+      "vast": false,
+      "categorie": "",
+      "naam": "PAKKETVERZ."
+    },
+    {
+      "pattern": "^BEA.*NR:W540J2.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1184"
+    },
+    {
+      "pattern": "^BEA.*NR:433W2D.*",
+      "vast": false,
+      "categorie": "Speelgoed",
+      "naam": "399 Intertoys BV"
+    },
+    {
+      "pattern": "^BEA.*NR:B6V3ZR.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Aldi 061 Groningen"
+    },
+    {
+      "pattern": "^BEA.*NR:CT462692.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*DE DRIE GEZUSTERS"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL89RABO0155790056.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Laurens en Ria"
+    },
+    {
+      "pattern": "^SEPA.*Incassant: NL89ZIG370267060000.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ZIGGO B.V."
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL81ABNA0540200735.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "L J VAN EEKHOUT"
+    },
+    {
+      "pattern": "^BEA.*NR:00UE01.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "SCAPINO 1072"
+    },
+    {
+      "pattern": "^BEA.*NR:W50HT1.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1184"
+    },
+    {
+      "pattern": "^BEA.*NR:1DQR02.*",
+      "vast": false,
+      "categorie": "Speelgoed",
+      "naam": "Bart Smit Fil. 022"
+    },
+    {
+      "pattern": "^BEA.*NR:CT114346.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*DE BONTE WEVER"
+    },
+    {
+      "pattern": "^BEA.*NR:CT457835.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*PHILIPS MYSHOP EIN"
+    },
+    {
+      "pattern": "^BEA.*NR:983J99.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Coop 2175"
+    },
+    {
+      "pattern": "^BEA.*NR:M8F9SK.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Ozan"
+    },
+    {
+      "pattern": "^BEA.*NR:C8KF23.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn 1552"
+    },
+    {
+      "pattern": "^BEA.*NR:ZW4301.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Mediq Apotheken"
+    },
+    {
+      "pattern": "^BEA.*NR:02K401.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Cafe De Keyzer"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL26RABO0140251111.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "INSHARED NEDERLAND B.V."
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL93RABO0170100200.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "OXFAM NOVIB"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL40INGB0654880735.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Stichting Sisow"
+    },
+    {
+      "pattern": "^BEA.*NR:MC9025.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "HEMA EV005 GRONINGEN"
+    },
+    {
+      "pattern": "^BEA.*NR:CT390964.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "DE TOETER B.V."
+    },
+    {
+      "pattern": "^BEA.*NR:7CPP55.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "AH to go 5826 Gron"
+    },
+    {
+      "pattern": "^GEA.*NR:S1N267.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "KOOPMANSPLEIN 19"
+    },
+    {
+      "pattern": "^GEA.*NR:S1M239.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "EIKENLAAN 306 GRONINGEN"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL04ABNA0458565466.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "MEDUZA PROFIT BV"
+    },
+    {
+      "pattern": "^BEA.*NR:43201019.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "iZ *De Eetfabriek"
+    },
+    {
+      "pattern": "^SEPA.*IBAN: NL45RABO0306545241.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ML van Eekhout"
+    },
+    {
+      "pattern": "^SEPA.*Incassant: NL02ZZZ271084360000.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "OXFAM NOVIB"
+    },
+    {
+      "pattern": "^BEA.*NR:JJ9C3B.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "ST.LOC7000muntverkoo"
+    },
+    {
+      "pattern": "^BEA.*NR:243NYJ.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Poiesz Supermarkt 48"
+    },
+    {
+      "pattern": "^BEA.*NR:KC3D59.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Evenementenpin.nl"
+    },
+    {
+      "pattern": "^BEA.*NR:6LCL2C.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Subway Zuiderdiep"
+    },
+    {
+      "pattern": "^BEA.*NR:CPH864.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "SEPAY*Garage D.M.A"
+    },
+    {
+      "pattern": "^BEA.*NR:QDM2FH.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "taxi kiezebrink"
+    },
+    {
+      "pattern": "^BEA.*NR:CT462693.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*DE DRIE GEZUSTERS"
+    },
+    {
+      "pattern": "^BEA.*NR:09GX01.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "SportcentrumKardinge"
+    },
+    {
+      "pattern": "^BEA.*NR:Q2PG90.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "Albert Heijn 1829"
+    },
+    {
+      "pattern": "^BEA.*NR:413N58.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "So-Low Groningen"
+    },
+    {
+      "pattern": "^BEA.*NR:T2Q5S8.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Harbour Cafe B.V."
+    },
+    {
+      "pattern": "^BEA.*NR:CT451819.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "CCV*PLANTSOON GRONINGEN"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL27RABO0317087428.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "M.G.B. MOORMAN"
+    },
+    {
+      "pattern": "^BEA.*NR:59V1J8.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "ALBERT HEIJN 1243"
+    },
+    {
+      "pattern": "^BEA.*NR:CT109939.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "BENZINE S. GIEZEN"
+    },
+    {
+      "pattern": "^BEA.*NR:5H907Y.*",
+      "vast": false,
+      "categorie": "Boodschappen",
+      "naam": "1251 Action Groninge"
+    },
+    {
+      "pattern": "^BEA.*NR:0MZF56.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Weerterbergen"
+    },
+    {
+      "pattern": "^BEA.*NR:126N91.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Papiermolen"
+    },
+    {
+      "pattern": "^BEA.*NR:MC9026.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "HEMA EV005 GRONINGEN"
+    },
+    {
+      "pattern": "^/TRTP.*/IBAN/NL09INGB0000435000.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "AEGON NEDERLAND NV"
+    },
+    {
+      "pattern": "^BEA.*NR:HU8202.*",
+      "vast": false,
+      "categorie": "",
+      "naam": "Stadjershal Groninge"
     }
   ]
 ]
