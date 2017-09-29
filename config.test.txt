@@ -1,0 +1,63 @@
+pattern	categorie	naam
+^ABN.*	AbnAmro	ABN
+^/TRTP.*/IBAN/NL13ABNA0506417344.*	Uitgaan	ABN AMRO BANK INZ TIKKIE
+^/TRTP.*/IBAN/NL89ABNA0450001067.*	Hypotheek	AEGON NEDERLAND NV
+^/TRTP.*/IBAN/NL09INGB0000435000.*	Salaris	AEGON NEDERLAND NV
+^/TRTP.*/IBAN/NL96ABNA0450004627.*	Hypotheek	AEGON NEDERLAND NV
+^BEA.*NR:P9PBZ6.*	Boodschappen	Albert Heijn
+^BEA.*NR:H8YW15.*	Boodschappen	Albert Heijn
+^BEA.*NR:Y6B5BJ.*	Boodschappen	Albert Heijn
+^BEA.*NR:DFR405.*	Boodschappen	Albert Heijn
+^BEA.*NR:NRN381.*	Boodschappen	Albert Heijn
+^BEA.*NR:7SKH5V.*	Boodschappen	Albert Heijn
+^BEA.*NR:W6NQN2.*	Boodschappen	ALBERT HEIJN 1184
+^BEA.*NR:W7V03D.*	Boodschappen	ALBERT HEIJN 1184
+^BEA.*NR:547K3N.*	Boodschappen	ALBERT HEIJN 1236
+^BEA.*NR:58LGH9.*	Boodschappen	ALBERT HEIJN 1243
+^BEA.*NR:BT0H30.*	Tanken	Allesco P.Dijkemaweg
+^BEA.*NR:1DQR02.*	Speelgoed	Bart Smit Fil. 022
+^BEA.*NR:1DQR01.*	Speelgoed	Bart Smit Fil. 022
+^BEA.*NR:48TK01.*	Sport	Benifit-shop
+^/TRTP.*/IBAN/NL81RABO0151157383.*	Sport	BUDOVERENIGING RENSHU
+^BEA.*NR:0GRG01.*	Uitgaan	Cafe de Pintelier
+^BEA.*NR:CT436503.*	Uitgaan	CCV*DE PINTELIER
+^BEA.*NR:CT105881.*	Boodschappen	CCV*MUZIEKHUIS WESTERH
+^BEA.*NR:5B6LL8.*	Boodschappen	Coop Lubbers
+^BEA.*NR:5CN3XM.*	Boodschappen	Coop Lubbers
+^/TRTP.*/IBAN/NL32ABNA0242244777.*	Essent	ESSENT RETAIL ENERG
+^SEPA.*IBAN: NL11ABNA0448897156.*	Uitgaan	G A KOHL
+^/TRTP.*/IBAN/NL26RABO0140251111.*	Inshared	INSHARED NEDERLAND B.V.
+^/TRTP.*/IBAN/NL23ABNA0818769483.*	Creditcard	INT CARD SERVICES
+^BEA.*NR:MM8201.*	Speelgoed	JACOBS KANTOORBOEKH.
+^GEA.*NR:S1N267.*	Pinnen	KOOPMANSPLEIN 19
+^BEA.*NR:2ZN802.*	Boodschappen	Kruidvat 7365 GRONINGEN
+^SEPA.*IBAN: NL81ABNA0540200735.*	Spaarrekening	L J VAN EEKHOUT
+^/TRTP.*/IBAN/NL81ABNA0540200735.*	Spaarrekening	L J VAN EEKHOUT
+^BEA.*NR:22KJP1.*	Boodschappen	Leen Bakker Fil 4132
+^BEA.*NR:3DBZ02.*	Boodschappen	Leen Bakker Fil 6459
+^BEA.*NR:4L1302.*	Boodschappen	Lidl 266 Hoogkerk
+^/TRTP.*/IBAN/NL45RABO0306545241.*	ML van Eekhout	ML van Eekhout
+^/TRTP.*/IBAN/GB85CHAS60924241314994.*	Netfilx	NETFLIX INTERNATIONAL B.V.
+^BEA.*NR:5WPB02.*	Uitgaan	NS-Groningen 202
+^/TRTP.*/IBAN/NL93RABO0170100200.*	Goede doelen	OXFAM NOVIB
+^PAKKETVERZ\..*	AbnAmro	PAKKETVERZ.
+^BEA.*NR:643P5S.*	Uitgaan	Parking Centrum
+^BEA.*NR:243NYJ.*	Boodschappen	Poiesz Supermarkt 48
+^/TRTP.*/IBAN/NL89RABO0341090417.*	Ria Jansma	R Jansma
+^RENTE.*	AbnAmro	RENTE
+^BEA.*NR:02K401.*	Uitgaan	SEPAY*Cafe De Keyzer
+^BEA.*NR:CPH864.*	Uitgaan	SEPAY*Garage D.M.A
+^BEA.*NR:4Z55M0.*	Lunch	Sodexo-NL078340
+^/TRTP.*/IBAN/NL30ABNA0524590958.*	Paiq	STG MOLLIE PAYMENTS
+^/TRTP.*/IBAN/NL74ABNA0707070252.*	Goede doelen	STG SAVE THE CHILDREN
+^BEA.*NR:K9Z6T5.*	Lunch	Sub Brugstraat
+^BEA.*NR:0P797Q.*	Lunch	Subway Sontplein
+^BEA.*NR:229H42.*	Tanken	TAMOIL TS ZEYERVEEN TER
+^BEA.*NR:650S2Z.*	Tanken	Tango Groningen 2
+^BEA.*NR:VS8101.*	Boodschappen	Toko Melati
+^GEA.*NR:S1A492.*	Pinnen	VISMARKT 39
+^/TRTP.*/IBAN/NL83DEUT0265121817.*	Vodafone	Vodafone-Libertel B.V.
+^BEA.*NR:3HD801.*	Boodschappen	vof de Marktslager
+^BEA.*NR:D596P7.*	Boodschappen	VOF DORLAND
+^/TRTP.*/IBAN/NL98INGB0000845745.*	Ziggo	ZIGGO SERVICES BV
+^/TRTP.*/IBAN/NL58INGB0000003050.*	Verzekeringen	Zilveren Kruis Zorgverzekeringen  NV

@@ -1,5 +1,7 @@
 package POJO.Transactie;
 
+import POJO.Config;
+
 import java.math.BigDecimal;
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -17,6 +19,7 @@ public class Transactie {
     public Custom custom;
 
     final private DateFormat formatter = new SimpleDateFormat("yyyyMMdd");
+    final private static Config config = Config.getInstance();
 
     public Transactie(String transactieregel) throws ParseException {
         String[] transacties = transactieregel.split("\t");

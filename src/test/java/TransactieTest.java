@@ -120,7 +120,7 @@ public class TransactieTest {
     @Test
     public void txt2jsonText() throws IOException {
         String regel = null;
-        BufferedReader reader = new BufferedReader(new FileReader("config.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("config.test.txt"));
         Set<ConfigElement> config = new HashSet<>();
         while ((regel = reader.readLine()) != null) {
             String[] elements = regel.split("\t");
