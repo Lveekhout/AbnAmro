@@ -1,4 +1,4 @@
-package POJO;
+package POJO.Configuratie;
 
 public class ConfigElement {
     public String pattern;

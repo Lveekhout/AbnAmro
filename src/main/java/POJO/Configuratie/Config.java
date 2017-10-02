@@ -1,4 +1,4 @@
-package POJO;
+package POJO.Configuratie;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

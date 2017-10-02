@@ -1,0 +1,84 @@
+{
+  "vast": {
+    "categorie": "Boodschappen",
+    "bedrag": {
+      "debet": -20.00
+    },
+    "aantal": 6,
+    "namen": [
+      {
+        "naam": "Albert Heijn",
+        "bedrag": {
+          "debet": -12.50
+        },
+        "aantal": 4
+      },
+      {
+        "naam": "Aldi",
+        "bedrag": {
+          "debet": -7.50
+        },
+        "aantal": 2
+      }
+    ]
+  },
+  "incidenteel": {
+    "categorie": "IORR Amsterdam",
+    "bedrag": {
+      "credit": 206.80,
+      "debet": -206.80
+    },
+    "aantal": 11,
+    "namen": [
+      {
+        "naam": "Spaarrekening LJ van Eekhout",
+        "bedrag": {
+          "credit": 206.80
+        },
+        "aantal": 1
+      },
+      {
+        "naam": "Waterhole",
+        "bedrag": {
+          "debet": -70.00
+        },
+        "aantal": 4
+      },
+      {
+        "naam": "NS",
+        "bedrag": {
+          "debet": -53.00
+        },
+        "aantal": 2
+      },
+      {
+        "naam": "Sodexo",
+        "bedrag": {
+          "debet": -2.55
+        },
+        "aantal": 1
+      },
+      {
+        "naam": "International Budget Hostel",
+        "bedrag": {
+          "debet": -52.50
+        },
+        "aantal": 1
+      },
+      {
+        "naam": "Restaurant Crystal",
+        "bedrag": {
+          "debet": -8.75
+        },
+        "aantal": 1
+      },
+      {
+        "naam": "SatelliteSportsCafe",
+        "bedrag": {
+          "debet": -20.00
+        },
+        "aantal": 1
+      }
+    ]
+  }
+}

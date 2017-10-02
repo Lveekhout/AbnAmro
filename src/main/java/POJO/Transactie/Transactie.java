@@ -1,6 +1,6 @@
 package POJO.Transactie;
 
-import POJO.Config;
+import POJO.Configuratie.Config;
 
 import java.math.BigDecimal;
 import java.text.DateFormat;
