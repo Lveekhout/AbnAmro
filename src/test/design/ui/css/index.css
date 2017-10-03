@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.categorie {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.categorie .expandknop {
+    float: left;
+    margin: 0;
+    padding: 8px;
+    border: 0;
+}
+
+.categorie .expandknop a  {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.categorie .expandknop a img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 18px;
+}
+
+.categorie .tekst {
+    float: left;
+    margin: 0;
+    padding-top: 5px;
+    border: 0;
+    font-size: 16pt;
+}
+
+.namen {
+    background-color: darkcyan;
+    height: 100px;
+    overflow: hidden;
+}

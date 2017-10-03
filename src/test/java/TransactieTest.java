@@ -1,4 +1,4 @@
-import POJO.Configuratie.ConfigElement;
+import POJO.Config.ConfigElement;
 import POJO.Transactie.Transactie;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;
