@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 50px;
     border: 0;
 }
 
@@ -41,6 +41,8 @@ body {
 }
 
 .namen {
+    display: none;
     background-color: darkcyan;
     padding-left: 30px;
+    overflow: hidden;
 }

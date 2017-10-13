@@ -14,30 +14,33 @@
                 }
             }
             function toggleElement(element) {
-                element.style.display = element.style.display == "none" ? "block" : "none";
+                console.log(element.style.display);
+                element.style.display = element.style.display == "" ? "block" : "";
             }
         </script>
     </head>
     <body>
         <div class="categorie">
-            <div class="expandknop">
-                <a href="javascript: void(0);" onclick="toggleElement(this.parentNode.parentNode.nextElementSibling)">
-                    <img src="images/plus.png">
-                </a>
+            <div style="overflow: hidden">
+                <div class="expandknop">
+                    <a href="javascript: void(0);" onclick="toggleElement(this.parentNode.parentNode.nextElementSibling)">
+                        <img src="images/plus.png">
+                    </a>
+                </div>
+                <div class="tekst">Boodschappen</div>
             </div>
-            <div class="tekst">Boodschappen</div>
-        </div>
-        <div class="namen" onclick="getJson(response=>handle(response))">
-            <table width="100%">
-                <tr>
-                    <td>Albert Heijn</td>
-                    <td>-450.00</td>
-                </tr>
-                <tr>
-                    <td>Aldi</td>
-                    <td>-40.00</td>
-                </tr>
-            </table>
+            <div class="namen" onclick="getJson(response=>handle(response))">
+                <table width="100%">
+                    <tr>
+                        <td>Albert Heijn</td>
+                        <td>-450.00</td>
+                    </tr>
+                    <tr>
+                        <td>Aldi</td>
+                        <td>-40.00</td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </body>
 </html>
