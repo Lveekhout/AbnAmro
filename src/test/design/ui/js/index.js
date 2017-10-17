@@ -6,3 +6,11 @@ function getJson(callback) {
     xhttp.open("GET", "http://localhost");
     xhttp.send();
 }
+
+function appendCategories(el, categories) {
+    categories.forEach(value => el.innerHTML += categorieTemplate.innerHTML.replace("{{categorienaam}}", value));
+}
+
+window.onload = () => {
+    appendCategories(document.body, ["Boodschappen","Tanken"]);
+}
