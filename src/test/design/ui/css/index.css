@@ -1,15 +1,32 @@
 body {
+    margin: 10px;
+    padding: 0;
+    border: 0;
+}
+
+ul#rekeningoverzicht {
+    display: block;
     margin: 0;
     padding: 0;
     border: 0;
+    list-style-type: none;
 }
 
 .categorie {
     margin: 0;
     padding: 0;
-    border: 0;
+    border: solid 3px black;
+    border-top: 0;
     width: 100%;
     overflow: hidden;
+}
+.categorie:first-child {
+    border-top: solid 3px black;
+    border-radius: 10px 10px 0 0;
+}
+.categorie:last-child {
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
 }
 
 .categorie .expandknop {
