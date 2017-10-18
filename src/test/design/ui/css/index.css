@@ -16,45 +16,56 @@ ul#rekeningoverzicht {
     margin: 0;
     padding: 0;
     border: solid 3px black;
-    border-top: 0;
+    border-bottom: 0;
     width: 100%;
     overflow: hidden;
 }
 .categorie:first-child {
-    border-top: solid 3px black;
-    border-radius: 10px 10px 0 0;
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .categorie:last-child {
-    border-top: 0;
-    border-radius: 0 0 10px 10px;
+    border-bottom: solid 3px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
-.categorie .expandknop {
+.categorie .textcontainer {
+    overflow: hidden;
+}
+
+.categorie .textcontainer .expandknop {
     float: left;
     margin: 0;
     padding: 8px;
     border: 0;
 }
 
-.categorie .expandknop a  {
+.categorie .textcontainer .expandknop a  {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-.categorie .expandknop a img {
+.categorie .textcontainer .expandknop a img {
     margin: 0;
     padding: 0;
     border: 0;
     width: 18px;
 }
 
-.categorie .tekst {
+.categorie .textcontainer .tekst {
     float: left;
     margin: 0;
     padding-top: 5px;
     border: 0;
     font-size: 16pt;
+}
+
+td {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .namen {

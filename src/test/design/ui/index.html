@@ -4,37 +4,8 @@
         <title>AbnAmro rekeningoverzicht</title>
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <script type="text/javascript" src="js/index.js"></script>
-        <script>
-            function toggleElement(element) {
-                element.style.display = element.style.display == "" ? "block" : "";
-            }
-        </script>
     </head>
     <body>
-        <div id="categorieTemplate" style="display: none;">
-            <li class="categorie">
-                <div style="overflow: hidden">
-                    <div class="expandknop">
-                        <a href="javascript: void(0);" onclick="toggleElement(this.parentNode.parentNode.nextElementSibling)">
-                            <img src="images/plus.png">
-                        </a>
-                    </div>
-                    <div class="tekst">{{categorienaam}}</div>
-                </div>
-                <div class="namen">
-                    <table width="100%">
-                        <tr>
-                            <td>Albert Heijn</td>
-                            <td>-450.00</td>
-                        </tr>
-                        <tr>
-                            <td>Aldi</td>
-                            <td>-40.00</td>
-                        </tr>
-                    </table>
-                </div>
-            </li>
-        </div>
-        <ul id="rekeningoverzicht"></ul>
+        <div id="rekeningoverzicht"></div>
     </body>
 </html>
