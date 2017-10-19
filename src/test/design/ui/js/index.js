@@ -9,7 +9,8 @@ function createExpandknopAnchor() {
     a.href = "javascript: void(0);";
     a.addEventListener("click", event => {
         if (a.parentNode.parentNode.nextElementSibling)
-            a.parentNode.parentNode.nextElementSibling.style.display = a.parentNode.parentNode.nextElementSibling.style.display == "" ? "block" : ""
+//            a.parentNode.parentNode.nextElementSibling.style.display = a.parentNode.parentNode.nextElementSibling.style.display == "" ? "block" : ""
+            $(a.parentNode.parentNode.nextElementSibling).slideToggle("fast")
     });
     a.onclick = "toggleElement(this.parentNode.parentNode.nextElementSibling)";
     a.appendChild(createExpandknopAnchorImage())
@@ -63,17 +64,17 @@ function createNamen(namen) {
     return div;
 }
 
-function createCategorie(categorie) {
+function createCategorie(post) {
     let div = document.createElement("div");
     div.classList.add("categorie");
-    div.appendChild(createTextcontainer(categorie.incidenteel[0]));
-    div.appendChild(createNamen(categorie.incidenteel[0].namen));
+    div.appendChild(createTextcontainer(post));
+    div.appendChild(createNamen(post.namen));
     return div;
 }
 
-function appendCategories(el, categories) {
-    categories.vast.forEach(value => el.innerHTML += categorieTemplate.innerHTML.replace("{{categorienaam}}", value.categorie));
-    categories.incidenteel.forEach(value => el.innerHTML += categorieTemplate.innerHTML.replace("{{categorienaam}}", value.categorie));
+function appendCategories(div, categories) {
+    categories.vast.forEach(value => div.appendChild(createCategorie(value)));
+    categories.incidenteel.forEach(value => div.appendChild(createCategorie(value)));
 }
 
 window.onload = () => {
@@ -85,8 +86,7 @@ window.onload = () => {
         if (this.readyState == 1)
             div.innerHTML = "";
         else if (this.readyState == 4)
-            if (this.status>=200&this.status<300)
-                div.appendChild(createCategorie(JSON.parse(this.responseText)))
+            if (this.status>=200&this.status<300) appendCategories(div, JSON.parse(this.responseText));
     }
     xhttp.open("GET", "json/categorie.json");
     xhttp.send();

@@ -70,7 +70,7 @@ td {
 
 .namen {
     display: none;
+    color: white;
     background-color: darkcyan;
     padding-left: 30px;
-    overflow: hidden;
 }
