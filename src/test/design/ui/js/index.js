@@ -7,10 +7,11 @@ function createExpandknopAnchorImage() {
 function createExpandknopAnchor() {
     let a = document.createElement("a");
     a.href = "javascript: void(0);";
-    a.addEventListener("click", event => {
-        if (a.parentNode.parentNode.nextElementSibling)
+    a.addEventListener("click", function() {
+        if (this.parentNode.parentNode.nextElementSibling) {
 //            a.parentNode.parentNode.nextElementSibling.style.display = a.parentNode.parentNode.nextElementSibling.style.display == "" ? "block" : ""
-            $(a.parentNode.parentNode.nextElementSibling).slideToggle("fast")
+            $(this.parentNode.parentNode.nextElementSibling).slideToggle("fast");
+        }
     });
     a.onclick = "toggleElement(this.parentNode.parentNode.nextElementSibling)";
     a.appendChild(createExpandknopAnchorImage())
@@ -47,10 +48,10 @@ function createNamenTable(namen) {
         td.appendChild(document.createTextNode(naam.naam));
         tr.appendChild(td);
         td = document.createElement("td");
-        td.appendChild(document.createTextNode(naam.bedrag.credit));
+        td.appendChild(document.createTextNode(naam.bedrag.credit?naam.bedrag.credit:""));
         tr.appendChild(td);
         td = document.createElement("td");
-        td.appendChild(document.createTextNode(naam.bedrag.debet));
+        td.appendChild(document.createTextNode(naam.bedrag.debet?naam.bedrag.debet:""));
         tr.appendChild(td);
         table.appendChild(tr);
     });

@@ -1,10 +1,11 @@
 body {
-    margin: 10px;
+    margin: 100px;
     padding: 0;
     border: 0;
+    font-family: Verdana;
 }
 
-ul#rekeningoverzicht {
+#rekeningoverzicht {
     display: block;
     margin: 0;
     padding: 0;
@@ -15,10 +16,10 @@ ul#rekeningoverzicht {
 .categorie {
     margin: 0;
     padding: 0;
-    border: solid 3px black;
+    border: solid 3px gray;
     border-bottom: 0;
-    width: 100%;
     overflow: hidden;
+    background-color: lavender;
 }
 .categorie:first-child {
     border-bottom: 0;
@@ -70,7 +71,6 @@ td {
 
 .namen {
     display: none;
-    color: white;
-    background-color: darkcyan;
+    background-color: aliceblue;
     padding-left: 30px;
 }

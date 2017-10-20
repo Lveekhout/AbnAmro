@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DESIGN AbnAmro rekeningoverzicht</title>
+        <style>
+            .table {
+                display: table;
+                padding: 10px;
+                background-color: aliceblue;
+            }
+            .categorieregel {
+                display: table-row;
+                position: relative;
+/*                height: 100px;*/
+                background-color: aqua;
+            }
+            .kolom1 {
+                display: table-cell;
+                position: absolute;
+/*                height: 50px;*/
+                left: 0;
+                right: 50%;
+                background-color: bisque;
+            }
+            .kolom2 {
+                position: absolute;
+/*                height: 50px;*/
+                left: 50%;
+                right: 25%;
+                background-color: burlywood;
+                text-align: right;
+            }
+            .kolom3 {
+                position: absolute;
+/*                height: 50px;*/
+                left: 75%;
+                right: 0;
+                background-color: cornsilk;
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="table">
+            <div class="categorieregel">
+                <div class="kolom1">Boodschappies</div>
+                <div class="kolom2">50.00</div>
+                <div class="kolom3">-160.00</div>
+            </div>
+            <div class="categorieregel">
+                <div class="kolom1">Boodschappies</div>
+                <div class="kolom2">50.00</div>
+                <div class="kolom3">-160.00</div>
+            </div>
+        </div>
+    </body>
+</html>
