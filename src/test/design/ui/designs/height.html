@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Height test</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            window.onload = event => {
+                
+            }
+        </script>
+        <style>
+            body {
+                margin: 100px;
+/*                border: solid 3px black;*/
+                font-family: Verdana;
+/*                padding: 100px;*/
+            }
+            .post {
+                border: solid 3px black;
+                border-bottom: 0;
+            }
+            .post:first-child {
+                border-top-left-radius: 6px;
+                border-top-right-radius: 6px;
+            }
+            .post:last-child {
+                border-bottom: solid 3px black;
+                border-bottom-left-radius: 6px;
+                border-bottom-right-radius: 6px;
+            }
+            .tabel {
+                display: table;
+                width: 100%;
+/*                padding: 10px;*/
+                background-color: azure
+            }
+            .regel {
+                display: table-row;
+                position: relative;
+                padding: 10px;
+                font-size: 14pt;
+                background-color: #123456;
+                overflow: hidden;
+            }
+            .regel div {
+                display: table-cell;
+            }
+            .detail {
+                color: white;
+            }
+            .regel div p {
+                margin: 0;
+                padding-right: 10px;
+                text-align: right;
+                vertical-align: middle;
+            }
+            .regel div img {
+                vertical-align: middle;
+            }
+            .head {
+                cursor: pointer;
+            }
+            .body {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="post">
+            <div class="head" onclick="console.log(this); $(this.nextElementSibling).slideToggle('fast')">
+                <div class="tabel">
+                    <div class="regel">
+                        <div style="background-color: #FEDCBA; width: 50%;">
+                            Verzekeringen
+                        </div>
+                        <div style="background-color: #DCBA98; width: 25%;">
+                            <p>123.00</p>
+                        </div>
+                        <div style="background-color: #BA9876; width: 25%;">
+                            <img src="../images/world.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="body">
+                <div class="tabel">
+                    <div class="regel">
+                        <div class="detail" style="background-color: #012345; width: 50%;">Inshared</div>
+                        <div class="detail" style="background-color: #234567; width: 25%;">&nbsp;</div>
+                        <div class="detail" style="background-color: #456789; width: 25%;">&nbsp;</div>
+                    </div>
+                    <div class="regel">
+                        <div class="detail" style="background-color: #012345; width: 50%;">&nbsp;</div>
+                        <div class="detail" style="background-color: #234567; width: 25%;">&nbsp;</div>
+                        <div class="detail" style="background-color: #456789; width: 25%;">&nbsp;</div>
+                    </div>
+                    <div class="regel">
+                        <div class="detail" style="background-color: #012345; width: 50%;">&nbsp;</div>
+                        <div class="detail" style="background-color: #234567; width: 25%;">&nbsp;</div>
+                        <div class="detail" style="background-color: #456789; width: 25%;">&nbsp;</div>
+                    </div>
+                    <div class="regel">
+                        <div class="detail" style="background-color: #012345; width: 50%;">&nbsp;</div>
+                        <div class="detail" style="background-color: #234567; width: 25%;">&nbsp;</div>
+                        <div class="detail" style="background-color: #456789; width: 25%;">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="post">
+            <div class="head" onclick="console.log(this); $(this.nextElementSibling).slideToggle('fast')">
+                <div class="tabel">
+                    <div class="regel">
+                        <div style="background-color: #FEDCBA; width: 50%;">
+                            Verzekeringen
+                        </div>
+                        <div style="background-color: #DCBA98; width: 25%;">
+                            <p>123.00</p>
+                        </div>
+                        <div style="background-color: #BA9876; width: 25%;">
+                            <img src="../images/world.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="body">
+                <div class="tabel">
+                    <div class="regel">
+                        <div class="detail" style="background-color: #012345; width: 50%;">Inshared</div>
+                        <div class="detail" style="background-color: #234567; width: 25%;">&nbsp;</div>
+                        <div class="detail" style="background-color: #456789; width: 25%;">&nbsp;</div>
+                    </div>
+                    <div class="regel">
+                        <div class="detail" style="background-color: #012345; width: 50%;">&nbsp;</div>
+                        <div class="detail" style="background-color: #234567; width: 25%;">&nbsp;</div>
+                        <div class="detail" style="background-color: #456789; width: 25%;">&nbsp;</div>
+                    </div>
+                    <div class="regel">
+                        <div class="detail" style="background-color: #012345; width: 50%;">&nbsp;</div>
+                        <div class="detail" style="background-color: #234567; width: 25%;">&nbsp;</div>
+                        <div class="detail" style="background-color: #456789; width: 25%;">&nbsp;</div>
+                    </div>
+                    <div class="regel">
+                        <div class="detail" style="background-color: #012345; width: 50%;">&nbsp;</div>
+                        <div class="detail" style="background-color: #234567; width: 25%;">&nbsp;</div>
+                        <div class="detail" style="background-color: #456789; width: 25%;">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="post">
+            <div class="head" onclick="console.log(this); $(this.nextSibling.nextSibling).slideToggle('fast')">
+                <div class="tabel">
+                    <div class="regel">
+                        <div style="background-color: #FEDCBA; width: 50%;">
+                            &nbsp;
+                        </div>
+                        <div style="background-color: #DCBA98; width: 25%;">
+                            <p>12.50</p>
+                        </div>
+                        <div style="background-color: #BA9876; width: 25%;">
+                            <img src="../images/world.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="body">
+                <div class="tabel">
+                    <div class="regel">
+                        <div style="background-color: #012345; width: 50%;">
+                            &nbsp;
+                        </div>
+                        <div style="background-color: #234567; width: 25%;">
+                            &nbsp;
+                        </div>
+                        <div style="background-color: #456789; width: 25%;">
+                            &nbsp;
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
